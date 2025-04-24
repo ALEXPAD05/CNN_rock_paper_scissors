@@ -1,8 +1,6 @@
 # Proyecto: Clasificación de Piedra, Papel o Tijera con CNN
 
-Este es un proyecto de final de cuatrimestre el cual es un entrenamiento de una dataset de tensorflow el cual se encarga de identificar que ademan estamos haciendo con nuestra mano en el caso de ser piedra, papel o tijera.
-
-Este proyecto utiliza una Red Neuronal Convolucional (CNN) para clasificar imágenes de "piedra", "papel" y "tijera". El flujo de trabajo incluye entrenamiento del modelo, predicción en tiempo real con la cámara y pruebas con imágenes preexistentes.
+Este es un proyecto de final de cuatrimestre el cual es un entrenamiento de una dataset de tensorflow el cual se encarga de identificar que ademan estamos haciendo con nuestra mano en el caso de ser piedra, papel o tijera. todo esto con una red neuronal convolucional.
 
 ## Archivos del Proyecto
 
