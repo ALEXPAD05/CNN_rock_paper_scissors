@@ -20,12 +20,11 @@ CNN/
 │   └── 1.png                       # Ejemplo de imagen de prueba.
 │   └── 2.png                       # Ejemplo de imagen de prueba.
 │   └── 3.png                       # Ejemplo de imagen de prueba.
-├── trained_model_parameters/    # Carpeta con el modelo entrenado.
-│   └── model_rock_paper_scissors   # Modelo entrenado
 ├── venv/                        # Carpeta del entorno virtual (opcional)
 ├── .gitattributes               # Archivo para subir modelo
 ├── .gitignore                   # Archivo para subir seleccion de que subir a github
 ├── main.py                      # Archivo principal que coordina la ejecución del proyecto.
+├── model_rock_paper_scissors    # Modelo entrenado
 ├── README.md                    # Este archivo.
 └── requirements.txt             # Archivo con las dependencias del proyecto.
 ```
