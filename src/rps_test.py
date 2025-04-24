@@ -3,18 +3,18 @@ import cv2
 import numpy as np
 from tensorflow.keras.models import load_model # type: ignore
 
-def testing(carpeta='test', nombre_modelo='model_rock_paper_scissors.h5'):
-    model = load_model(nombre_modelo, compile=False)
+def testing():
+    model = load_model('model_rock_paper_scissors.h5')
     clases = ['piedra', 'papel', 'tijera']
     IMG_SIZE = 224
 
     # Verifica que la carpeta existe
-    if not os.path.exists(carpeta):
-        print(f"La carpeta '{carpeta}' no existe.")
+    if not os.path.exists('test'):
+        print(f"La carpeta '{'test'}' no existe.")
         return
 
-    for nombre_archivo in os.listdir(carpeta):
-        ruta_imagen = os.path.join(carpeta, nombre_archivo)
+    for nombre_archivo in os.listdir('test'):
+        ruta_imagen = os.path.join('test', nombre_archivo)
 
         if not (ruta_imagen.lower().endswith('.jpg') or ruta_imagen.lower().endswith('.png')):
             continue  # Saltar archivos que no son imágenes
@@ -31,11 +31,7 @@ def testing(carpeta='test', nombre_modelo='model_rock_paper_scissors.h5'):
         confidence = pred[0][class_id]
 
         # Mostrar resultado
-        print(f"{nombre_archivo}: {clases[class_id]} ({confidence*100:.1f}%)")
-
-        # Opcional: mostrar imagen con predicción
-        cv2.putText(img_resized, f"{clases[class_id]} ({confidence*100:.1f}%)", (10, 30),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 255), 2)
+        print(f"{nombre_archivo}: {clases[class_id]}")
         cv2.imshow("Resultado", img_resized)
         cv2.waitKey(0)
 

@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 from tensorflow.keras.models import load_model # type: ignore
 
-def cam(nombre_modelo='model_rock_paper_scissors.h5'):
-    model = load_model(nombre_modelo, compile=False)
+def cam():
+    model = load_model('model_rock_paper_scissors.h5')
     clases = ['piedra', 'papel', 'tijera']
     IMG_SIZE = 224
 
