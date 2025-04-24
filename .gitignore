@@ -5,3 +5,6 @@
 !/README.md
 !/.gitignore
 !/requirements.txt
+!/model_rock_paper_scissors.h5
+!/.gitattributes
+!/test/
