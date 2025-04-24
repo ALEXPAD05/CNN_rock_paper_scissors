@@ -24,7 +24,7 @@ CNN/
 ├── .gitattributes               # Archivo para subir modelo
 ├── .gitignore                   # Archivo para subir seleccion de que subir a github
 ├── main.py                      # Archivo principal que coordina la ejecución del proyecto.
-├── model_rock_paper_scissors    # Modelo entrenado
+├── model_rock_paper_scissors.h5 # Modelo entrenado
 ├── README.md                    # Este archivo.
 └── requirements.txt             # Archivo con las dependencias del proyecto.
 ```
