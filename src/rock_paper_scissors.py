@@ -23,7 +23,6 @@ def cam():
 
         pred = model.predict(input_img)
         class_id = np.argmax(pred)
-        confidence = pred[0][class_id]
         label = f"{clases[class_id]} "
 
         cv2.rectangle(frame, (x, y), (x+IMG_SIZE, y+IMG_SIZE), (0, 255, 0), 2)
