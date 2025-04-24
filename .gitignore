@@ -6,3 +6,4 @@
 !/.gitignore
 !/requirements.txt
 !/model_rock_paper_scissors.h5
+!/trained_model_parameters
