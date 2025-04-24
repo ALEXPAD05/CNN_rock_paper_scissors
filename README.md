@@ -10,6 +10,7 @@ Este es un proyecto de final de cuatrimestre el cual es un entrenamiento de una 
 4. **training.py**: Entrenamiento del modelo CNN.
 
 ## Orden de carpetas
+```
 CNN/
 ├── src/                         # Carpeta con los archivos principales del proyecto
 │   └── training.py                 # Entrenamiento del modelo CNN.4
@@ -26,7 +27,7 @@ CNN/
 ├── model_rock_paper_scissors    # Modelo entrenado
 ├── README.md                    # Este archivo.
 └── requirements.txt             # Archivo con las dependencias del proyecto.
-
+```
 
 ## Requisitos
 
