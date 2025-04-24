@@ -9,6 +9,25 @@ Este es un proyecto de final de cuatrimestre el cual es un entrenamiento de una 
 3. **rps_test.py**: Pruebas del modelo con imágenes de la carpeta `test`.
 4. **training.py**: Entrenamiento del modelo CNN.
 
+## Orden de carpetas
+CNN/
+├── src/                         # Carpeta con los archivos principales del proyecto
+│   └── training.py                 # Entrenamiento del modelo CNN.4
+│   └── rps_test.py                 # Verificacion de nuestra Red mediante imagenes
+│   └── rock_paper_scissors.py      # Verificacion de nuestra Red mediante la camara
+├── test/                        # Carpeta con imágenes de prueba para el modelo.
+│   └── 1.png                       # Ejemplo de imagen de prueba.
+│   └── 2.png                       # Ejemplo de imagen de prueba.
+│   └── 3.png                       # Ejemplo de imagen de prueba.
+├── venv/                        # Carpeta del entorno virtual (opcional)
+├── .gitattributes               # Archivo para subir modelo
+├── .gitignore                   # Archivo para subir seleccion de que subir a github
+├── main.py                      # Archivo principal que coordina la ejecución del proyecto.
+├── model_rock_paper_scissors    # Modelo entrenado
+├── README.md                    # Este archivo.
+└── requirements.txt             # Archivo con las dependencias del proyecto.
+
+
 ## Requisitos
 
 Instala las dependencias desde el archivo `requirements.txt`:
